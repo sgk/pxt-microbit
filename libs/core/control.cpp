@@ -73,6 +73,8 @@ enum EventBusSource {
     //% blockIdentity="control.eventSourceId"
     MICROBIT_ID_IO_P20_ = MICROBIT_ID_IO_P20,
     //% blockIdentity="control.eventSourceId"
+    MICROBIT_ID_LOGO_ = MICROBIT_ID_LOGO,
+    //% blockIdentity="control.eventSourceId"
     MES_DEVICE_INFO_ID_ = MES_DEVICE_INFO_ID,
     //% blockIdentity="control.eventSourceId"
     MES_SIGNAL_STRENGTH_ID_ = MES_SIGNAL_STRENGTH_ID,
@@ -91,6 +93,8 @@ enum EventBusValue {
     MICROBIT_BUTTON_EVT_UP_ = MICROBIT_BUTTON_EVT_UP,
     //% blockIdentity="control.eventValueId"
     MICROBIT_BUTTON_EVT_CLICK_ = MICROBIT_BUTTON_EVT_CLICK,
+    //% blockIdentity="control.eventValueId"
+    MICROBIT_BUTTON_EVT_LONG_CLICK_ = MICROBIT_BUTTON_EVT_LONG_CLICK,    
     //% blockIdentity="control.eventValueId"
     MICROBIT_RADIO_EVT_DATAGRAM_ = MICROBIT_RADIO_EVT_DATAGRAM,
     //% blockIdentity="control.eventValueId"
